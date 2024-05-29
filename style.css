@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: "Source Sans 3", sans-serif;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+    position: absolute;
+    margin-right: 870px;
+}
+nav a{
+    font-size: 23px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    text-decoration: none; 
+    color: black;
+    /* transition-duration: 0.5s; */
+}
+.skill{
+    display: flex;
+    gap: 25px;
+}
+.myname{
+    font-size: 27px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.skill i{
+    font-size: 26px;
+    display: none;
+}
+.page-1{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.photo-section{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background-image: url('me.jpg');
+    background-position: top;
+    background-size: cover;
+}
+.text-section{
+    height: 200px;
+    width: 400px;
+    font-family: "Source Sans 3", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text1{
+    text-align: center;
+    color: rgb(54, 50, 50);
+    font-size: 17px;
+}
+h1{
+    font-size: 39px;
+    letter-spacing: 1px;
+}
+.text2{
+    color: rgb(76, 74, 71);
+    font-size: 19px;
+}
+.cv{
+    height: 45px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+.contact{
+    height: 45px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+
+}
+button{
+    border: none;
+}
+.icons i{
+    font-size: 24px;
+    color: black;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(180, 180, 113);
+    font-size: 22px;
+}
+
+
+
+.page-2{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.education{
+    height: 75vh;
+    width: 530px;
+    border-radius: 50px;
+}
+.clg{
+    font-size: 23px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    margin-left: 28px;
+}
+.data{
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.year{
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+    
+}
+.education i{
+    color: rgb(0, 68, 255);
+}
+.education h3{
+    margin-left: 70px;
+}
+.eduaction-del{
+    margin-left: 50px;
+}
+.clg2{
+    position: absolute;
+}
+.about-me{
+    height: 80vh;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.experience{
+    height: 30vh;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.about{
+    width: 500px;
+    border: 2px solid black;
+    height: 30vh;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    
+}
+.page-3{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.dev-details1{
+    height: 330px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.dev-details2{
+    height: 330px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.devlopment{
+    font-size: 21px;
+    font-weight: bold;
+}
+.devlopment li{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.skills-section{
+    font-size: 30px;
+    position: absolute;
+}
