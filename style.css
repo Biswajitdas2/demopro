@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;  
     font-family: "Source Sans 3", sans-serif;
+    color: white;
+}
+i,p,h3,h1{
+    color:aliceblue
 }
 
 nav{
@@ -12,6 +16,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 nav img{
     position: absolute;
@@ -22,7 +27,7 @@ nav a{
     font-family: "Source Sans 3", sans-serif;
     font-weight: 400;
     text-decoration: none; 
-    color: black;
+    color: white;
     /* transition-duration: 0.5s; */
 }
 .skill{
@@ -65,7 +70,7 @@ nav a{
 }
 .text1{
     text-align: center;
-    color: rgb(54, 50, 50);
+    color: rgb(210, 210, 210);
     font-size: 17px;
 }
 h1{
@@ -73,7 +78,7 @@ h1{
     letter-spacing: 1px;
 }
 .text2{
-    color: rgb(76, 74, 71);
+    color: rgb(240, 223, 197);
     font-size: 19px;
 }
 .cv{
@@ -83,6 +88,10 @@ h1{
     font-size: 14px;
     margin-top: 20px;
     font-weight: bold;
+    color: black;
+    background-color: #d6ff06;
+    box-shadow: 1px 1px 10px aqua,
+    1px 1px 30px aqua;
     
 }
 .contact{
@@ -93,14 +102,17 @@ h1{
     font-weight: bold;
     color: white;
     background-color: black;
-
+    border: 2px solid white;
 }
 button{
     border: none;
 }
 .icons i{
     font-size: 24px;
-    color: black;
+    color: whitesmoke;
+    box-shadow: 1px 1px 10px rgb(158, 3, 247),
+    1px 1px 10px rgb(158, 3, 247);
+ 
 }
 .icons{
     display: flex;
@@ -126,15 +138,16 @@ nav a:hover{
 }
 
 .education{
-    height: 75vh;
-    width: 530px;
+    height: fit-content;
+    width: 50%;
     border-radius: 50px;
 }
 .clg{
     font-size: 23px;
     font-family: "Source Sans 3", sans-serif;
     font-weight: bold;
-    margin-left: 28px;
+    margin-left: 32px;
+    color: yellow;
 }
 .data{
     margin-left: 30px;
@@ -147,10 +160,16 @@ nav a:hover{
     
 }
 .education i{
-    color: rgb(0, 68, 255);
+    color: rgb(16, 255, 120);
 }
 .education h3{
-    margin-left: 70px;
+    margin-left: 60px;
+    color: #cc14ff;
+    animation: d3 2s infinite;
+}
+@keyframes d3 {
+    from{color: #cc14ff;}
+    to{color: rgb(0, 217, 255);}
 }
 .eduaction-del{
     margin-left: 50px;
@@ -160,7 +179,7 @@ nav a:hover{
 }
 .about-me{
     height: 80vh;
-    width: 600px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,21 +187,50 @@ nav a:hover{
     gap: 20px;
 }
 .experience{
-    height: 30vh;
+    height: 20vh;
     width: 500px;
-    border: 2px solid black;
+    border: 2px solid aqua;
     border-radius: 50px;
+    animation: d1 2s infinite;
+}
+@keyframes d1{
+    from{
+        border: 3px solid palevioletred;
+    }
+    to{
+        border: 3px solid yellow;
+    }
 }
 .about{
     width: 500px;
-    border: 2px solid black;
+    border: 2px solid #c6ff1f;
     height: 30vh;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 600;
-    
+    font-weight: 400;
+    color: black;
+    box-shadow: 1px 0.4px 20px aqua,
+    1px 1px 10px aqua;
+    animation: d2 3s infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes d2{
+    from{
+        box-shadow: 1px 0.4px 30px aqua,
+        1px 1px 10px aqua;
+    }
+        to{
+            box-shadow: 1px 0.4px 30px rgb(49, 214, 255),
+    1px 1px 30px aqua;
+        }
+}
+
+
+.about p{
+    color: white;
 }
 .page-3{
     height: 90vh;
@@ -195,25 +243,50 @@ nav a:hover{
 }
 .dev-details1{
     height: 330px;
-    width: 450px;
-    border: 2px solid black;
+    width: 400px;
+    border: 2px solid white;
     border-radius: 40px;
+    box-shadow: 1px 0.4px 30px yellowgreen,
+    1px 1px 10px aqua;
 }
 .dev-details2{
     height: 330px;
-    width: 450px;
-    border: 2px solid black;
+    width: 400px;
+    border: 2px solid white;
     border-radius: 40px;
+    box-shadow: 1px 0.4px 30px yellowgreen,
+    1px 1px 10px aqua;
 }
 .devlopment{
-    font-size: 21px;
+    font-size: 19px;
     font-weight: bold;
 }
 .devlopment li{
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+.devlopment i{
+    color: #c6ff1f;
+    box-shadow: 1px 0.4px 20px rgba(186, 243, 16, 0.913),
+    1px 1px 20px aqua;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 .skills-section{
     font-size: 30px;
     position: absolute;
+}
+.clg2{
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 1px 1px 20px rgb(115, 255, 1),
+    1px 1px 50px aqua;
+
+}
+.devlopment li:hover{
+    font-size: 25px;
+}
+.devlopment li{
+    transition-duration: 1s;
+    cursor: pointer;
 }
